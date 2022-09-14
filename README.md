@@ -5,7 +5,7 @@ Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma
 
 ## Antes de tudo o que é um evento contábil ?
 
-![Guia Acronimo - Evento Contabil](./img/EventoContabil.JPG | width=50)
+![Guia Acronimo - Evento Contabil](./img/EventoContabil.JPG){:height="50px" width="50px"}
 
 Um evento contábil é um código que representa a rodada do cálculo do motor da CCEE (Definição melhorada com o Lassi/Gedra). Ele é composto na sua primeira parte pelo Ano/Mês, números de 1 a 6, depois pelo processamento, números de 7 a 9, e depois pela sequência de processamento, números de 10 a 12, vide exemplo acima.
 
@@ -43,7 +43,6 @@ Os campos de entrada e saída do serviço podem ser consultados no [manual de ut
 
 Utilize o serviço *ListarAcronimo* para consultar acronimos disponíveis através da Plataforma de Integração da CCEE.
 
-Você pode listar todos os acrônimos disponíveis, ou listar um acrônimo específico buscando pelo id do mesmo.
 
 [Clique aqui](https://documenter.getpostman.com/view/12351215/UzJJucpF#acea95c9-86a9-4b63-83d6-302a66f80be1) para ver exemplos de consulta utilizando a ferramenta Postman em seu navegador.
     
@@ -60,12 +59,6 @@ Os campos de entrada e saída do serviço podem ser consultados no [manual de ut
 ![Guia Acronimo - passo 3](./img/Passo3GuiaAcronimo.JPG)
 
 Utilize o serviço *ListarResultado* para consultar os valores/resultados dos acrônimos solicitados através da Plataforma de Integração da CCEE.
-
-Você pode:
-- Listar os resultados dos acrônimos com dimensão semanal - até 5 acrônimos com até 20 perfis de agente;
-- Listar os resultados dos acrônimos com dimensão mensal - até 20 acrônimos com até 20 perfis de agente;
-- Listar os resultados dos acrônimos com dimensão horária - apenas 1 acrônimo por perfil de agente;
-
 
 [Clique aqui](https://documenter.getpostman.com/view/12351215/UzJJucpF#87f02261-4a72-47bf-b1c7-db79bb3bdcab) para ver exemplos de consulta utilizando a ferramenta Postman em seu navegador.
     
