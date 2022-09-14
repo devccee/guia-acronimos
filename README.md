@@ -5,7 +5,7 @@ Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma
 
 ## Antes de tudo o que é um evento contábil ?
 
-![Guia Acronimo - Evento Contabil](./img/EventoContabil.JPG){:height="50px" width="50px"}
+![Guia Acronimo - Evento Contabil](./img/EventoContabil.JPG|width="70px")
 
 Um evento contábil é um código que representa a rodada do cálculo do motor da CCEE (Definição melhorada com o Lassi/Gedra). Ele é composto na sua primeira parte pelo Ano/Mês, números de 1 a 6, depois pelo processamento, números de 7 a 9, e depois pela sequência de processamento, números de 10 a 12, vide exemplo acima.
 
