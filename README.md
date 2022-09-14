@@ -3,22 +3,21 @@ Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma
 
 - Listar o resultado da consulta de acrônimos
 
-
-## O que fazer para consultar os resultados dos acrônimos da DRI disponibilizados pela Plataforma de Integração?
-
 ## Antes de tudo o que é um evento contábil ?
 
 ![Guia Acronimo - Evento Contabil](./img/EventoContabil.JPG)
 
 Um evento contábil é um código que representa a rodada do cálculo do motor da CCEE (Definição melhorada com o Lassi/Gedra). Ele é composto na sua primeira parte pelo Ano/Mês, números de 1 a 6, depois pelo processamento, números de 7 a 9, e depois pela sequência de processamento, números de 10 a 12, vide exemplo acima.
 
-### Siga a seguinte ordem para a chamada de serviços:
+
+## O que fazer para consultar os resultados dos acrônimos da DRI disponibilizados pela Plataforma de Integração?
+
+### Siga esta ordem para a chamada de serviços:
 
 ![Guia Acronimo - Ordem Serviços](./img/OrdemGuiaAcronimo.JPG)
  
 
-Para chegar no resultado final de extrair as informações do resultado dos acrônimos através da Plataforma de Integração da CCEE,
-deve-se seguir esta ordem de chamada dos serviços, primeiro para identificar qual o evento contábil divulgado ao público tem-se interesse através do uso do primeiro serviço. Chamando o segundo serviço, deve-se encontrar o acronimo desejado. Por fim, ao chamar o terceiro serviço, ele retornará dados do resultado do acrônimo escolhido.
+Para chegar no resultado final de extrair as informações do resultado dos acrônimos através da Plataforma de Integração da CCEE, deve-se seguir esta ordem de chamada dos serviços, primeiro para identificar qual o evento contábil divulgado ao público tem-se interesse através do uso do primeiro serviço. Chamando o segundo serviço, deve-se encontrar o acronimo desejado. Por fim, ao chamar o terceiro serviço, ele retornará dados do resultado do acrônimo escolhido.
 
 --- 
  
