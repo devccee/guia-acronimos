@@ -1,4 +1,4 @@
-# GUIA ACRONIMO - Consulta de Acrônimos através da Plataforma de Integração
+# GUIA ACRÔNIMOS - Consulta de Acrônimos da DRI através da Plataforma de Integração
 Ao realizar a integração entre sua aplicação e a CCEE através da Plataforma de Integração, o agente pode:
 
 - Listar o resultado da consulta de acrônimos
