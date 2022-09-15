@@ -16,8 +16,6 @@ Um evento contábil é um código que representa a rodada do cálculo do motor d
 ![Guia Acronimo - Ordem Serviços](./img/OrdemGuiaAcronimo.JPG)
  
 
-Para chegar no resultado final de extrair as informações do resultado dos acrônimos através da Plataforma de Integração da CCEE, deve-se seguir esta ordem de chamada dos serviços, primeiro para identificar qual o evento contábil divulgado ao público tem-se interesse através do uso do primeiro serviço. Chamando o segundo serviço, deve-se encontrar o acronimo desejado. Por fim, ao chamar o terceiro serviço, ele retornará dados do resultado do acrônimo escolhido.
-
 --- 
  
 ### Liste os eventos contábeis divulgados pela CCEE
